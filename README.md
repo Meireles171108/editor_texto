@@ -1,6 +1,6 @@
 # Editor de Texto Simples
 
-Este é um projeto em Python para um editor de texto simples que permite ao usuário realizar várias operações em uma lista de textos. O sistema oferece um menu interativo com funcionalidades como adicionar, listar, remover, contar vogais, editar e encontrar textos com base no tamanho.
+Este é um projeto em Python para um editor de texto simples que permite ao usuário realizar várias operações em uma lista de textos. O sistema oferece um menu interativo com funcionalidades como adicionar, listar, remover, contar vogais, editar e encontrar textos com base no tamanho. Foi feito nas dependencias do Senai e é meu primeiro projeto autônomo
 
 ## Funcionalidades
 
