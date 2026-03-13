@@ -14,7 +14,7 @@ def menu():
     print(' 8. Sair')
     print('---------------------------')
 def adicionar_texto(lista_de_texto):
-    adicionar = str(input('digite o texto a ser escrito: '))
+    adicionar = str(input('digite o texto a ser adicionado: '))
     lista_de_texto.append(adicionar)
     
     print(f'\n--- Texto Adicionado ---')
