@@ -1,77 +1,129 @@
-# Editor de Texto Simples
+# Editor de Texto em Python
 
-Este é um projeto em Python para um editor de texto simples que permite ao usuário realizar várias operações em uma lista de textos. O sistema oferece um menu interativo com funcionalidades como adicionar, listar, remover, contar vogais, editar e encontrar textos com base no tamanho. Foi feito nas dependencias do Senai e é meu primeiro projeto autônomo
+Este é um projeto em Python que implementa um **editor de texto simples via terminal**, permitindo ao usuário realizar diversas operações em uma lista de textos.
 
-## Funcionalidades
+O sistema possui um **menu interativo**, com funcionalidades como adicionar, listar, remover, editar e analisar textos armazenados.
 
-- **Adicionar Texto**: Permite adicionar novos textos à lista.
-- **Listar Textos**: Exibe todos os textos armazenados na lista.
-- **Contar Vogais**: Conta quantas vezes as vogais (a, e, i, o, u) aparecem em um texto específico da lista.
-- **Deletar Texto**: Remove um texto da lista pelo índice.
-- **Encontrar Textos Por Tamanho**: Permite procurar por textos que tenham um comprimento específico.
-- **Verificar Letra no Texto**: Verifica quantas vezes uma letra específica aparece em todos os textos.
-- **Modificar Texto**: Permite editar um texto já adicionado.
+Este projeto foi desenvolvido durante o curso de **Técnico em Informática para Internet no SENAI**, sendo também um dos meus primeiros projetos desenvolvidos de forma autônoma.
 
-## Pré-requisitos
+---
 
-- Python 3.x instalado no seu sistema.
-- O código utiliza funções de entrada e saída no terminal para interação com o usuário.
+# Funcionalidades
 
-## Instalação
+* **Adicionar texto** — permite inserir novos textos na lista.
+* **Listar textos** — exibe todos os textos armazenados.
+* **Contar vogais** — calcula quantas vezes as vogais (a, e, i, o, u) aparecem em um texto específico.
+* **Deletar texto** — remove um texto da lista a partir do índice.
+* **Encontrar textos por tamanho** — busca textos com um comprimento específico.
+* **Verificar letra no texto** — conta quantas vezes uma letra aparece em todos os textos armazenados.
+* **Modificar texto** — permite editar um texto já existente.
 
-1. Clone o repositório para sua máquina:
-   ```bash
-   git clone https://github.com/Meireles171108/editor_texto.git
+---
 
-Navegue até o diretório do projeto:
+# Pré-requisitos
 
+* Python 3.x instalado no sistema.
+* O programa utiliza **entrada e saída via terminal** para interação com o usuário.
+
+---
+
+# Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Meireles171108/editor_texto.git
+```
+
+Entre no diretório do projeto:
+
+```bash
 cd editor_texto
+```
 
-Este projeto não possui dependências externas, então não é necessário instalar pacotes adicionais.
+Este projeto **não possui dependências externas**, portanto não é necessário instalar bibliotecas adicionais.
 
-Como rodar o projeto
+---
 
-Para rodar o editor de texto, basta executar o arquivo principal:
+# Como executar o projeto
 
+Execute o arquivo principal:
+
+```bash
 python editor_texto.py
+```
 
-Isso irá abrir o menu interativo no terminal, onde você pode escolher as opções para manipular os textos.
+Após executar, o programa abrirá um **menu interativo no terminal**, permitindo selecionar as opções para manipular os textos.
 
-Exemplo de Uso
+---
 
-Adicionar Texto:
+# Exemplo de uso
 
-Selecione a opção "1" para adicionar um texto à lista.
+### Adicionar texto
 
-Digite o texto que deseja adicionar.
+1. Selecione a opção `1`.
+2. Digite o texto que deseja adicionar.
 
-Listar Textos:
+### Listar textos
 
-Selecione a opção "2" para listar todos os textos adicionados.
+1. Selecione a opção `2`.
+2. O programa exibirá todos os textos armazenados.
 
-Contar Vogais:
+### Contar vogais
 
-Selecione a opção "3", insira o índice de um texto, e o programa mostrará quantas vezes as vogais aparecem nele.
+1. Selecione a opção `3`.
+2. Informe o índice do texto.
+3. O programa mostrará quantas vogais aparecem nele.
 
-Deletar Texto:
+### Deletar texto
 
-Selecione a opção "4", escolha o índice do texto a ser removido.
+1. Selecione a opção `4`.
+2. Escolha o índice do texto a ser removido.
 
-Encontrar Textos Por Tamanho:
+### Encontrar textos por tamanho
 
-Selecione a opção "5", insira o tamanho desejado, e o programa mostrará os textos que possuem aquele comprimento.
+1. Selecione a opção `5`.
+2. Informe o tamanho desejado.
+3. O programa exibirá os textos com aquele comprimento.
 
-Verificar Letra no Texto:
+### Verificar letra no texto
 
-Selecione a opção "6", insira uma letra, e o programa verificará quantas vezes ela aparece nos textos.
+1. Selecione a opção `6`.
+2. Informe uma letra.
+3. O programa contará quantas vezes ela aparece nos textos.
 
-Modificar Texto:
+### Modificar texto
 
-Selecione a opção "7", escolha o índice do texto a ser modificado, insira o novo texto, e ele substituirá o texto antigo.
+1. Selecione a opção `7`.
+2. Escolha o índice do texto.
+3. Digite o novo conteúdo.
 
-Contribuição
+---
 
-Contribuições são bem-vindas! Para contribuir, faça um fork deste repositório, adicione suas modificações e envie um pull request.
+# Contribuição
+
+Contribuições são bem-vindas.
+
+1. Faça um **fork** do repositório.
+2. Crie uma branch com suas modificações.
+3. Envie um **pull request**.
+
+---
+
+# Licença
+
+Este projeto está licenciado sob a **Licença MIT**.
+Consulte o arquivo `LICENSE` para mais detalhes.
+
+---
+
+# Autor
+
+**Pedro Meireles**
+
+GitHub: https://github.com/Meireles171108
+LinkedIn: https://www.linkedin.com/in/pedro-meireles-b75106358/
+
 
 Licença
 
